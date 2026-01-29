@@ -1,0 +1,57 @@
+:root{
+  background: radial-gradient(circle at center,#00ffff,#b700ff)
+  
+}
+
+.Title{
+  font-size:30px;
+  margin-top: 0%;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  background-color: rgb(255, 255, 255);
+  /* padding: px; */
+  box-sizing: border-box;
+  margin-top: 200px;
+  margin-left: 550px;
+  border-radius: 10px;
+}
+
+.emailbox,.passbox{
+  font-size: large;
+
+}
+
+.inputbox{
+  width: 250px;
+  height: 35px;
+}
+
+button {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background: linear-gradient(to right,#00ffff,#b700ff);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 250px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.Signup{
+  display: flex;
+  gap: 6px;
+
+}
+
+#Forgot{
+  margin-top: 100px;
+}
