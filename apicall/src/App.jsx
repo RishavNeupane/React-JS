@@ -5,8 +5,8 @@ import Note from "./components/Note";
 const App = () => {
   return (
     <>
-      {/* <Form /> */}
-      <Note />
+      <Form />
+      {/* <Note /> */}
       {/* <Database /> */}
     </>
   );
